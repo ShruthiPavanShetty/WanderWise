@@ -29,12 +29,12 @@ const Hero = () => {
     }
   }
 
-  const mainContent = <div className='flex flex-col items-center mx-2 md:mx-5 lg:mx-36'>
-        <img src='/heroLogo3.png' alt='Wander-Wise-Logo'className='w-44 md:w-76 lg:w-96 lg:mt-15' />
+  const mainContent = <div className='flex flex-col items-center mx-2 md:mx-5 lg:mx-36 md:my-0 lg:my-10'>
+        <img src='/heroLogo3.png' alt='Wander-Wise-Logo'className='w-44 md:w-76 lg:w-76' />
         <div className='flex flex-col gap-4 items-center'>
-          <h1 className='font-extrabold text-center text-[#16404D] text-[2rem] md:text-[2.75rem] lg:text-[3.75rem]'>Embark on Your Next Adventure with AI </h1>
-          <h2 className='font-extrabold text-center text-[1rem] md:text-[1.75rem] lg:text-[2.75rem]'>A Personalized Itineraries just for You</h2>
-          <p className='text-sm md:text-base lg:text-xl text-gray-700 text-center font-bold px-5 lg:px-70'>Your personalized travel planner and curator, crafting custom itineraries designed around your interests and budget.</p>
+          <h1 className='font-extrabold text-center text-[#16404D] text-[1.7rem] md:text-[2rem] lg:text-[3rem]'>Embark on Your Next Adventure with AI </h1>
+          <h2 className='font-extrabold text-center text-[1rem] md:text-[1rem] lg:text-[2rem]'>A Personalized Itineraries just for You</h2>
+          <p className='text-sm md:text-base lg:text-lg text-gray-700 text-center font-bold px-5 lg:px-70'>Your personalized travel planner and curator, crafting custom itineraries designed around your interests and budget.</p>
           <Link to={'/create-trip'}>
             <Button variant='contained' sx={{backgroundColor:'#DDA853', color:'#16404D', padding:'12px 26px', letterSpacing:'3px', fontSize:'0.85rem'}} className='pt-5' size='large' >Get started</Button>
           </Link>
