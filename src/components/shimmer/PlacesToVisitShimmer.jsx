@@ -31,6 +31,7 @@ const PlacesToVisitShimmer = () => {
                     thumbnailWidth={300}
                     thumbnailHeight={300}
                 />
+                
             </div>
         </div>
   )
