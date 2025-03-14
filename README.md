@@ -1,8 +1,8 @@
-Wander Wise - AI Travel Planner
+# Wander Wise - AI Travel Planner
 
 Wander Wise is an AI-powered travel planner that creates personalized itineraries based on user preferences. It simplifies travel planning by providing hotel recommendations and detailed day-wise plans tailored to the user's budget, destination, and group size.
 
-Features
+## Features
 
 - AI-Powered Itinerary Generation: Uses Gemini AI to generate personalized travel plans.
 
@@ -30,7 +30,7 @@ Features
 
 - Image Integration: Fetches destination images from Unsplash.
 
-Tech Stack
+## Tech Stack
 
 - Frontend: React, Vite, Tailwind CSS, Material UI
 
@@ -42,36 +42,44 @@ Tech Stack
 
 - APIs & Libraries:
 
-- Axios for API requests
+  - Axios for API requests
 
-- React Router for navigation
+  - React Router for navigation
 
-- Unsplash API for images
+  - Unsplash API for images
 
-- GoMaps API for maps and location-based data
+  - GoMaps API for maps and location-based data
 
-Installation & Setup
+## Installation & Setup
 
 1. Clone the repository
 
+   ```
    git clone https://github.com/your-username/wander-wise.git
    cd wander-wise
+   ```
 
 2. Install dependencies
 
+  ```
    npm install
+  ```
 
 3. Create a .env file and add your API keys:
 
+   ```
    VITE_FIREBASE_API_KEY=your_firebase_api_key
    VITE_UNSPLASH_ACCESS_KEY=your_unsplash_access_key
    VITE_GOOGLE_OAUTH_CLIENT_ID=your_google_oauth_client_id
+   ```
 
 4. Run the application
 
+   ```
    npm run dev
+   ```
 
-Usage
+## Usage
 
 - Sign in using Google OAuth.
 
