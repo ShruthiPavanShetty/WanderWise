@@ -1,88 +1,82 @@
-# Wander Wise - AI Travel Planner
+Wander Wise - AI Travel Planner
+
 Wander Wise is an AI-powered travel planner that creates personalized itineraries based on user preferences. It simplifies travel planning by providing hotel recommendations and detailed day-wise plans tailored to the user's budget, destination, and group size.
 
-##Features
+Features
 
- * AI-Powered Itinerary Generation: Uses Gemini AI to generate personalized travel plans.
+- AI-Powered Itinerary Generation: Uses Gemini AI to generate personalized travel plans.
 
- * Google OAuth Sign-In: Secure authentication via Google.
+- Google OAuth Sign-In: Secure authentication via Google.
 
- * Hero Page: Features a dynamic image carousel and branding.
+- Hero Page: Features a dynamic image carousel and branding.
 
- * Create Trip Page: Collects user details such as:
+- Create Trip Page: Collects user details such as:
 
-     * Destination
+  - Destination
 
-     * Number of days
+  - Number of days
 
-     * Budget
+  - Budget
 
-     * Number of people
+  - Number of people
 
- * View Trip Page: Displays the AI-generated trip itinerary.
+- View Trip Page: Displays the AI-generated trip itinerary.
 
- * Trip History: Shows all previously generated trips.
+- Trip History: Shows all previously generated trips.
 
- * Hotel Recommendations: Provides accommodation options based on the user's budget.
+- Hotel Recommendations: Provides accommodation options based on the user's budget.
 
- * Interactive Map: Uses GoMaps for location-based visualization.
+- Interactive Map: Uses GoMaps for location-based visualization.
 
- * Image Integration: Fetches destination images from Unsplash.
+- Image Integration: Fetches destination images from Unsplash.
 
+Tech Stack
 
-## Tech Stack
+- Frontend: React, Vite, Tailwind CSS, Material UI
 
- * Frontend: React, Vite, Tailwind CSS, Material UI
+- Backend & Database: Firebase Firestore
 
- * Backend & Database: Firebase Firestore
+- AI Service: Gemini AI
 
- * AI Service: Gemini AI
+- Authentication: Google OAuth
 
- * Authentication: Google OAuth
+- APIs & Libraries:
 
- * APIs & Libraries:
+- Axios for API requests
 
-    * Axios for API requests
+- React Router for navigation
 
-    * React Router for navigation
+- Unsplash API for images
 
-    * Unsplash API for images
+- GoMaps API for maps and location-based data
 
-    * GoMaps API for maps and location-based data
-
-
-## Installation & Setup
+Installation & Setup
 
 1. Clone the repository
 
-    ```
-    git clone https://github.com/your-username/wander-wise.git
-    cd wander-wise
-    ```
+   git clone https://github.com/your-username/wander-wise.git
+   cd wander-wise
 
-3. Install dependencies
+2. Install dependencies
 
-   ```
    npm install
-   ```
 
-4. Create a .env file and add your API keys:
+3. Create a .env file and add your API keys:
 
-    ```
-    VITE_FIREBASE_API_KEY=your_firebase_api_key
-    VITE_UNSPLASH_ACCESS_KEY=your_unsplash_access_key
-    VITE_GOOGLE_OAUTH_CLIENT_ID=your_google_oauth_client_id
-    ```
+   VITE_FIREBASE_API_KEY=your_firebase_api_key
+   VITE_UNSPLASH_ACCESS_KEY=your_unsplash_access_key
+   VITE_GOOGLE_OAUTH_CLIENT_ID=your_google_oauth_client_id
 
- 6. Run the application
+4. Run the application
 
-    ```
-    npm run dev
-    ```
+   npm run dev
 
-## Usage
-  * Sign in using Google OAuth.
-  * Create a trip by entering details such as destination, budget, and duration.
-  * View the AI-generated itinerary with hotel recommendations and planned activities.
-  * Access past trips via the Trip History page.
+Usage
 
+- Sign in using Google OAuth.
+
+- Create a trip by entering details such as destination, budget, and duration.
+
+- View the AI-generated itinerary with hotel recommendations and planned activities.
+
+- Access past trips via the Trip History page.
