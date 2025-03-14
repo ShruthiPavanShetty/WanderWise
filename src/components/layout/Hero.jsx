@@ -30,7 +30,7 @@ const Hero = () => {
   }
 
   const mainContent = <div className='flex flex-col items-center mx-2 md:mx-5 lg:mx-36 md:my-0 lg:my-10'>
-        {/* <img src='/heroLogo3.png' alt='Wander-Wise-Logo'className='w-44 md:w-76 lg:w-76' /> */}
+        <img src='/heroLogo3.png' alt='Wander-Wise-Logo'className='w-44 md:w-76 lg:w-76' /> 
         <div className='flex flex-col gap-4 items-center'>
           <h1 className='font-extrabold text-center text-[#16404D] text-[1.7rem] md:text-[2rem] lg:text-[3rem]'>Embark on Your Next Adventure with AI </h1>
           <h2 className='font-extrabold text-center text-[1rem] md:text-[1rem] lg:text-[2rem]'>A Personalized Itineraries just for You</h2>
